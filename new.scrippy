@@ -1,0 +1,5 @@
++testObject
+
+testObject ? str_a
+testObject ? int_x
+testObject ? float_X

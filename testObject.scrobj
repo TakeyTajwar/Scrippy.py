@@ -1,0 +1,13 @@
+# test object
+
+str_a "hello!!"
+str_b "how are you?"
+
+bool_A T
+bool_B F
+
+int_x 5
+int_y 57
+
+float_X 3.25
+float_Y 33.9674
