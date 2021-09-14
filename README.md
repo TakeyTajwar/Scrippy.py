@@ -1,5 +1,5 @@
 # Scrippy.py
-A scripting language
+A config-scripting language
 
 Import Object from Scrobj file:
 ```scribby
