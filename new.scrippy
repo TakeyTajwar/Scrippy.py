@@ -1,5 +1,7 @@
 +testObject
 
 testObject ? str_a
-testObject ? int_x
-testObject ? float_X
+
+testObject : str_a "Goodbye"
+
+testObject ? str_a

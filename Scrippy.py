@@ -36,7 +36,14 @@ for line in scrippy:
     
     elif(re.match(r"^\w+\s\?\s\w+$", line)): # log
         m = re.search(r"^(\w+)\s\?\s(\w+)$", line)
-        if(m.group(2) in objects[m.group(1)]):
-            print(objects[m.group(1)][m.group(2)])
+        if(m.group(1) in objects):
+            if(m.group(2) in objects[m.group(1)]):
+                print(objects[m.group(1)][m.group(2)])
+            else:
+                print(f"AttributeDoesNotExist: {m.group(2)}")
         else:
-            print(f"AttributeDoesNotExist: {m.group(2)}")
+            print(f"ObjectDoesNotExist: {m.group(1)}")
+            
+    elif(re.match(r"^\w+\s\:\s\w+", line)): # change attribute
+        print(line)
+    
