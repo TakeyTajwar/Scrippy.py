@@ -2,16 +2,16 @@
 A scripting language
 
 Import Object from Scrobj file:
-```
+```scribby
 +ObjectName
 ```
 
 Scribby Log attribute value:
-```
+```scribby
 ObjectName ? AttributeName
 ```
 
 Change attribute value:
-```
-Object Name : AttributeName NewValue
+```scribby
+ObjectName : AttributeName NewValue
 ```
